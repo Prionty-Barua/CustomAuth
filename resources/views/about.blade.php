@@ -14,7 +14,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="navbar-brand btn btn-outline-success" href="index">Home</a>
+                            <a class="navbar-brand btn btn-outline-success" href="/">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="navbar-brand btn btn-outline-success" href="report">Report</a>
@@ -79,11 +79,11 @@
      
         <p>It has also 30 police outposts, 6 police boxes, 2 crime divisions -- North and Port; headquarters division, 1 city special branch, 5 investigation centers including 4 naval and 1 police box and 2 traffic division.CMP has a glorious role in the liberation war of Bangladesh. In 1971, the then SP martyr Shamsul Hoque led his fellow freedom fighters from police force during the fight with the  Pakistani Army.</p>
     </main>
-    <footer>
-    <div class="text-left">
-        <p><ul>All rights reserved | Copyright © 2014 - 2022 | Designed & Developed by : <a href="w3explorer">w3explorer</a></ul></p>
-    </div>
-    </footer>
+  <footer>
+      <div class="text-left">
+        <p><ul>All rights reserved | Copyright © 2014 - 2022 | Designed & Developed by :<a href="#">w3explorers</a></ul></p>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </body>

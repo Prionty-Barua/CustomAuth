@@ -69,7 +69,7 @@
                                 <div class="form-group">
                                     <label for="name">Don't have an account?</label>
                                     <button class="btn btn-block btn-success shadow-sm" type="">
-                                    <a href="auth/passswords/registration"></a>Register Here</button>
+                                    <a href=".../passswords/registration"></a>Register Here</button>
                                 </div>
                             </div>  
                         </div>

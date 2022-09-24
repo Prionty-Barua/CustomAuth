@@ -3,3 +3,9 @@ img{
     height: 110%;
     padding: 25px;
 }
+.sm-icons{
+    flex-direction: row;
+}
+.sm-icons .nav-link{
+    padding-right: 1em;
+}
