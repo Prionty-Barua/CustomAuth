@@ -30,10 +30,13 @@ Route::get('/report',function(){
 Route::get('/login',function(){
     return view ('login');
 });
-
-Route::get('/login',[CustomAuthController::class,'login'])->name('login')->Middleware('alreadyLoggedIn');
+Route::get('/dashboard',function(){
+    return view ('dashboard');
+});
+Auth::routes();
+// Route::get('/login',[CustomAuthController::class,'login'])->name('login')->Middleware('alreadyLoggedIn');
 Route::get('/registration',[CustomAuthController::class,'registration'])->name('register')->Middleware('alreadyLoggedIn');
-Route::post('/register-user', [CustomAuthController::class,'registerUser'])->name('register-user');
-Route::get('/login-user', [CustomAuthController::class,'loginUser'])->name('login-user');
-Route::get('/dashboard',[CustomAuthController::class,'dashboard'])->middleware('isLoggedIn');
-Route::get('/logout',[CustomAuthController::class,'logout']);
+// Route::post('/register-user', [CustomAuthController::class,'registerUser'])->name('register-user');
+// Route::get('/login-user', [CustomAuthController::class,'loginUser'])->name('login-user');
+// Route::get('/dashboard',[CustomAuthController::class,'dashboard'])->middleware('isLoggedIn');
+// Route::get('/logout',[CustomAuthController::class,'logout']);

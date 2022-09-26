@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
-
+                        @method('PUT')
                         <div class="row mb-3">
                             <label for="name" class="col-md-4 col-form-label text-md-end">{{ __('Name') }}</label>
 
@@ -61,12 +61,7 @@
                             </div>
                         </div>
 
-                        <div class="row mb-0">
-                            <div class="col-md-12 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Submit') }}
-                                </button>
-                            </div>
+                        <div class="row mb-0"> 
                             <div class="col-md-4">
                             </div>
                             <div class="col-md-6">
@@ -74,6 +69,11 @@
                                     <label for="text">
                                     I read and agree to 
                                     <a href="#">terms & conditions</a></label>
+                            </div><br><br>
+                            <div class="col-md-8 offset-md-4">
+                                <button type="submit" class="btn btn-sm btn-primary">
+                                    {{ __('Submit') }}
+                                </button>
                             </div>
                             <div class="col-md-4">
                             </div>
@@ -81,7 +81,7 @@
                                 <label for="name">Already have an account?
                                 </label>
                                 <button class="btn btn-block btn-success" type="">
-                                <a href="login"></a>Sign in</button>
+                                <a href="login"></a>{{ _('Sign in')}}</button>
                             </div>
                         </div>
                     </form>

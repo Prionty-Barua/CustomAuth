@@ -15,7 +15,7 @@
                             <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus required>
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -55,21 +55,16 @@
                         </div>
 
                         <div class="row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                            <div class="col-md-4 offset-md-4">
+                                <button type="submit" class="btn btn-primary btn-sm me-2">
                                     {{ __('Login') }}
                                 </button>
-
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
                                 
                                 <div class="form-group">
                                     <label for="name">Don't have an account?</label>
-                                    <button class="btn btn-block btn-success shadow-sm" type="">
-                                    <a href=".../passswords/registration"></a>Register Here</button>
+                                    <button class="btn btn-success btn-sm me-2" type="">
+                                    <a href=".../auth/registration"></a>
+                                    Register Here</button>
                                 </div>
                             </div>  
                         </div>

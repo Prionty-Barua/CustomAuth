@@ -72,8 +72,8 @@ class ReportController extends Controller
             $image->move($destinationPath,$profileImage);
             $input['filepath'] = "$profileImage";
         }
-        Bag::create($input);
-        return redirect()->route('reports.index')
+        Report::create($input);
+        return redirect()->route('index')
         ->with('success','Report created successfully');
     }
 
@@ -85,7 +85,7 @@ class ReportController extends Controller
      */
     public function show($id)
     {
-       
+       return view('dashboard',compact('report'));
     }
 
     /**
