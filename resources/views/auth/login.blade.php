@@ -53,20 +53,19 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="row mb-0">
-                            <div class="col-md-4 offset-md-4">
-                                <button type="submit" class="btn btn-primary btn-sm me-2">
+                        <div class="row mb-0"> 
+                            <div class="col-md-4"></div>
+                            <div class="col-md-8 offset-md-4">
+                                <button type="submit" class="btn btn-sm btn-primary">
                                     {{ __('Login') }}
                                 </button>
-                                
-                                <div class="form-group">
-                                    <label for="name">Don't have an account?</label>
-                                    <button class="btn btn-success btn-sm me-2" type="">
-                                    <a href=".../auth/registration"></a>
-                                    Register Here</button>
-                                </div>
-                            </div>  
+                            </div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-6">
+                                <label for="name">Don't have an account?
+                                </label>
+                                <a href="registration" class="btn btn-success btn-sm me-2">Register Here</a>
+                            </div>
                         </div>
                     </form>
                 </div>

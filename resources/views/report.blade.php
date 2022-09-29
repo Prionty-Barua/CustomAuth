@@ -20,13 +20,13 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="navbar-brand btn btn-outline-success" href="/">Home</a>
+                        <a class="navbar-brand btn btn-outline-success btn-sm me-2" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="navbar-brand btn btn-outline-success" href="about">About</a>
+                        <a class="navbar-brand btn btn-outline-success btn-sm me-2" href="about">About</a>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="navbar-brand btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
+                        <button type="button" class="navbar-brand btn btn-outline-success btn-sm me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">

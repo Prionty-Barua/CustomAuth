@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
-                        @method('PUT')
+                        @method('GET')
                         <div class="row mb-3">
                             <label for="name" class="col-md-4 col-form-label text-md-end">{{ __('Name') }}</label>
 
@@ -69,7 +69,7 @@
                                     <label for="text">
                                     I read and agree to 
                                     <a href="#">terms & conditions</a></label>
-                            </div><br><br>
+                            </div>
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-sm btn-primary">
                                     {{ __('Submit') }}
@@ -80,8 +80,7 @@
                             <div class="col-md-6">
                                 <label for="name">Already have an account?
                                 </label>
-                                <button class="btn btn-block btn-success" type="">
-                                <a href="login"></a>{{ _('Sign in')}}</button>
+                                <a href="login" class="btn btn-success btn-sm me-2">Sign in</a>
                             </div>
                         </div>
                     </form>

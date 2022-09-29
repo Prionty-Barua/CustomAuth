@@ -1,0 +1,14 @@
+.navbar{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 20%;
+}
+.navbar-toggle{
+
+}
+image{
+    max-width: 150%;
+    height: 150px;
+    object-fit: cover;
+}
